@@ -91,16 +91,15 @@ const Home = () => {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-solar-primary/10 border border-solar-primary/30 rounded-full mb-6 animate-fade-in">
               <i className='bx bx-sun text-solar-primary'></i>
-              <span className="text-sm font-medium text-solar-primary">Energi Terbarukan</span>
+              <span className="text-sm font-medium text-solar-primary">Sinar Surya, Energiku</span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight animate-slide-up">
-              Solusi <span className="text-gradient">Energi Surya</span> untuk Masa Depan
+              Distributor <span className="text-gradient">Lampu PJU Tenaga Surya & PLN</span> Terpercaya
             </h1>
             
             <p className="text-lg text-text-secondary mb-8 animate-slide-up" style={{ animationDelay: '0.1s' }}>
-              Temukan produk solar system berkualitas tinggi untuk rumah dan bisnis Anda. 
-              Hemat biaya listrik dengan energi terbarukan.
+              Solusi penerangan jalan modern, hemat energi, dan siap untuk proyek skala kecil hingga nasional
             </p>
             
             <div className="flex flex-wrap gap-4 animate-slide-up" style={{ animationDelay: '0.2s' }}>

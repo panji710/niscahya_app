@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "=========================================="
-echo "SolarMarket - Setup Script"
+echo "Niscahya_app - Setup Script"
 echo "=========================================="
 echo ""
 
@@ -11,7 +11,7 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${YELLOW}Setting up SolarMarket...${NC}"
+echo -e "${YELLOW}Setting up Niscahya_app...${NC}"
 echo ""
 
 # Check prerequisites

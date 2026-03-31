@@ -1,8 +1,6 @@
-# SolarMarket - Solar System Marketplace
+# Niscahya Indonesia Cerdas
 
 Website marketplace modern untuk produk solar system (lampu jalan tenaga surya, lampu taman, solar panel, baterai, dll) dengan teknologi Laravel backend dan React frontend.
-
-![SolarMarket Preview](https://via.placeholder.com/800x400/0D0D0D/FFC107?text=SolarMarket+Preview)
 
 ## Fitur
 
@@ -31,7 +29,7 @@ Website marketplace modern untuk produk solar system (lampu jalan tenaga surya, 
 ## Struktur Folder
 
 ```
-solar-marketplace/
+niscahya_app/
 ├── backend/                    # Laravel Backend
 │   ├── app/
 │   │   ├── Http/
@@ -209,13 +207,9 @@ Icon yang digunakan:
 
 ## Fitur yang Akan Datang
 
-- [ ] Sistem keranjang belanja (Cart)
-- [ ] Autentikasi user (Login/Register)
 - [ ] Chatbot AI untuk customer service
-- [ ] Sistem checkout dan pembayaran
 - [ ] Review dan rating produk
 - [ ] Admin dashboard
-- [ ] Notifikasi real-time
 
 ## Catatan Penting
 
@@ -248,30 +242,22 @@ Jika port 8000 atau 5173 sudah digunakan:
 - Laravel: `php artisan serve --port=8001`
 - React: Edit `vite.config.js` dan ubah port
 
-## License
-
-MIT License - Feel free to use and modify!
-
 ## Author
-
 Dibuat dengan untuk marketplace solar system Indonesia.
 
-
 ## cara run webnya
-Bisa banget tanpa Copilot. Setelah setup awal, kamu cukup jalanin 2 perintah ini tiap kali mau ngoding.
-Paling simpel di VS Code:
 Buka terminal pertama
-cd C:\xampp\htdocs\solar-marketplace\backend
-php artisan serve
+cd C:\xampp\htdocs\niscahya_app\backend
+- php artisan serve
 
 Buka terminal kedua
-cd C:\xampp\htdocs\solar-marketplace\frontend
-npm.cmd run dev
+cd C:\xampp\htdocs\niscahya_app\frontend
+ - npm.cmd run dev
 
 Buka browser
 http://localhost:5173
 
-## cek databae
+## cek database
 Supaya kamu bisa cek sendiri kapan pun dari terminal VS Code:
 cd C:\xampp\htdocs\solar-marketplace\backend
 php artisan migrate:status

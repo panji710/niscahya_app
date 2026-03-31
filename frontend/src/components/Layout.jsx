@@ -34,10 +34,10 @@ const Layout = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <i className='bx bx-sun text-solar-primary text-2xl'></i>
-              <span className="font-semibold text-lg">SolarMarket</span>
+              <span className="font-semibold text-lg">CV. Niscahya Indonesia Cerdas</span>
             </div>
             <p className="text-text-secondary text-sm">
-              &copy; 2024 SolarMarket. All rights reserved.
+              &copy; 2026 CV. Niscahya Indonesia Cerdas. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-text-secondary hover:text-solar-primary transition-colors">

@@ -35,8 +35,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             <i className='bx bx-sun text-dark-bg text-xl'></i>
           </div>
           <div>
-            <h1 className="font-bold text-xl text-white">SolarMarket</h1>
-            <p className="text-xs text-text-secondary">Solar System Store</p>
+            <h1 className="font-bold text-xl text-white">CV. Niscahya Indonesia Cerdas</h1>
           </div>
         </NavLink>
       </div>
