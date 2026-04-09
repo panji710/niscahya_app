@@ -30,12 +30,18 @@ class ProductController extends Controller
             $query->where('name', 'like', '%' . $request->search . '%');
         }
 
-        $products = $query->latest()->get();
+        $perPage = $request->query('per_page', 10); // Default 10 items per page
+        $products = $query->latest()->paginate($perPage);
 
         return response()->json([
             'success' => true,
-            'data' => $products,
-            'count' => $products->count()
+            'data' => $products->items(),
+            'meta' => [
+                'current_page' => $products->currentPage(),
+                'last_page' => $products->lastPage(),
+                'per_page' => $products->perPage(),
+                'total' => $products->total(),
+            ]
         ]);
     }
 
